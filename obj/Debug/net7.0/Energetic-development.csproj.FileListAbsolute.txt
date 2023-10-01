@@ -1,0 +1,14 @@
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\bin\Debug\net7.0\Energetic-development.exe
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\bin\Debug\net7.0\Energetic-development.deps.json
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\bin\Debug\net7.0\Energetic-development.runtimeconfig.json
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\bin\Debug\net7.0\Energetic-development.dll
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\bin\Debug\net7.0\Energetic-development.pdb
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\Energetic-development.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\Energetic-development.AssemblyInfoInputs.cache
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\Energetic-development.AssemblyInfo.cs
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\Energetic-development.csproj.CoreCompileInputs.cache
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\Energetic-development.dll
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\refint\Energetic-development.dll
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\Energetic-development.pdb
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\Energetic-development.genruntimeconfig.cache
+C:\Users\rrocl\Desktop\CodeCool\C#\Energetic-development\obj\Debug\net7.0\ref\Energetic-development.dll
