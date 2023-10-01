@@ -17,7 +17,12 @@ namespace Energetic_development
             EnergyConsumers ec = new(); 
             InitialData id = new InitialData();
             id.SetupApp(ec);
-            display.Setup(ec);
+            Dictionary<string, int> listaSchindlera = display.Setup(ec);
+            foreach (var schindler in listaSchindlera) 
+            {
+                Console.WriteLine($"{schindler.Key} : {schindler.Value}");
+            }
+
         }
     }
 }
