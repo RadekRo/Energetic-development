@@ -18,7 +18,8 @@ namespace Energetic_development
             InitialData id = new InitialData();
             id.SetupApp(ec);
             Dictionary<string, int> listaSchindlera = display.Setup(ec);
-            foreach (var schindler in listaSchindlera) 
+            var listaSchindleraZwei = listaSchindlera.Where(x => x.Value > 0);
+            foreach (var schindler in listaSchindleraZwei) 
             {
                 Console.WriteLine($"{schindler.Key} : {schindler.Value}");
             }
