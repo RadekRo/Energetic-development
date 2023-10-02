@@ -3,11 +3,11 @@
     public class ResourceStorage
     {
         private static ResourceStorage? instance;
-        int CoalStorage = 0;
-        int UraniumStorage = 0;
-        int HeliumStorage = 0;
-        int AntimatterStorage = 0;
-        int EnergyStorage = 0;
+        public int CoalStorage = 0;
+        public int UraniumStorage = 0;
+        public int HeliumStorage = 0;
+        public int AntimatterStorage = 0;
+        public int EnergyStorage = 0;
 
         public ResourceStorage() { }
 

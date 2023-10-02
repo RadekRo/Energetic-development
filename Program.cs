@@ -11,7 +11,6 @@ namespace Energetic_development
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Jutabiście i piechnie!");
             ResourceStorage resourceStorage = new();
             Display display = new Display(); 
             EnergyConsumers ec = new(); 
@@ -23,6 +22,10 @@ namespace Energetic_development
             {
                 Console.WriteLine($"{schindler.Key} : {schindler.Value}");
             }
+            CoalMine firstCoalMine = new CoalMine();
+            ResourceStorage rs = new ResourceStorage();
+            firstCoalMine.Work(rs);
+            Console.WriteLine($"Coal storage level: {rs.CoalStorage}");
 
         }
     }
