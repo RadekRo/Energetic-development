@@ -24,7 +24,11 @@ namespace Energetic_development
             }
             CoalMine firstCoalMine = new CoalMine();
             ResourceStorage rs = new ResourceStorage();
-            firstCoalMine.Work(rs);
+            firstCoalMine.Quantity = 10;
+            for (int i = 0; i < 10; i++)
+            {
+                firstCoalMine.Work(rs);
+            } 
             Console.WriteLine($"Coal storage level: {rs.CoalStorage}");
 
         }

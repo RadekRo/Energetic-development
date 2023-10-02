@@ -10,7 +10,7 @@ namespace Energetic_development.Model.Mines
             ProductionCycle = 7;
         }
 
-        public void Work(ResourceStorage rs)
+        public override void Work(ResourceStorage rs, int day)
         {
             rs.AntimatterStorage += ProductionUnits * Quantity;
         }

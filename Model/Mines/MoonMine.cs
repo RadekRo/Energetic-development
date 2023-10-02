@@ -8,7 +8,7 @@ namespace Energetic_development.Model.Mines
         {
             ProductionUnits = 10;
         }
-        public void Work(ResourceStorage rs)
+        public override void Work(ResourceStorage rs, int day)
         {
             rs.HeliumStorage += ProductionUnits * Quantity;
         }

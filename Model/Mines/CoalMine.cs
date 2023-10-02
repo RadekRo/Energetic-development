@@ -10,7 +10,7 @@ namespace Energetic_development.Model.Mines
             ProductionUnits = 40;
         }
 
-        public void Work(ResourceStorage rs)
+        public override void Work(ResourceStorage rs, int day)
         {
             rs.CoalStorage += ProductionUnits * Quantity;
         }
