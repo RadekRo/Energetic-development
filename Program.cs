@@ -22,14 +22,14 @@ namespace Energetic_development
             {
                 Console.WriteLine($"{schindler.Key} : {schindler.Value}");
             }
-            CoalMine firstCoalMine = new CoalMine();
+            HadronCollider hadronCollider = new();
             ResourceStorage rs = new ResourceStorage();
-            firstCoalMine.Quantity = 10;
-            for (int i = 0; i < 10; i++)
+            hadronCollider.Quantity = 1;
+            for (int i = 1; i < 10; i++)
             {
-                firstCoalMine.Work(rs);
+                hadronCollider.Work(rs, i);
+                Console.WriteLine($"Antimatter storage level: {rs.AntimatterStorage}");
             } 
-            Console.WriteLine($"Coal storage level: {rs.CoalStorage}");
 
         }
     }

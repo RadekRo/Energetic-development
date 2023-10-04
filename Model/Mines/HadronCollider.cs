@@ -12,7 +12,14 @@ namespace Energetic_development.Model.Mines
 
         public override void Work(ResourceStorage rs, int day)
         {
-            rs.AntimatterStorage += ProductionUnits * Quantity;
+            if (day % ProductionCycle == 0)
+            {
+                rs.AntimatterStorage += ProductionUnits * Quantity;
+            }
+            else
+            {
+                Console.WriteLine("Work in progress...");
+            }
         }
     }
 }
